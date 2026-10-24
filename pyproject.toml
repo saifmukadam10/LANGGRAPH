@@ -1,5 +1,5 @@
 [project]
-name = "langgraph"
+name = "langgraph-learning"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,7 +7,18 @@ authors = [
     { name = "Saif Mukadam", email = "mukadamsaif9@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "chromadb",
+    "ipykernel",
+    "ipython",
+    "langchain>=0.3.30",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-core>=0.3.86",
+    "langchain-groq>=0.3.8",
+    "langgraph>=1.0.1",
+    "python-dotenv",
+]
 
 [project.scripts]
 langgraph = "langgraph:main"
@@ -15,3 +26,6 @@ langgraph = "langgraph:main"
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
