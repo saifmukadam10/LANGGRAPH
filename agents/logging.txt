@@ -1,0 +1,5 @@
+Your Conversation Log:
+You: hi
+AI: Hello! How can I help you today?
+
+You: tell me the weather
