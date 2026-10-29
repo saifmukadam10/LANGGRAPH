@@ -2,7 +2,7 @@ from typing import (
     TypedDict,
     Annotated,
     Sequence,
-)  # sequence is used to automatically manage statte updates by adding new messages in chat history
+)  # sequence is used to automatically manage state updates by adding new messages in chat history
 from dotenv import load_dotenv
 from langchain_core.messages import (
     ToolMessage,
