@@ -7,3 +7,5 @@ python-dotenv
 chromadb
 langchain-chroma
 ipykernel
+langchain_huggingface
+sentence_transformers
